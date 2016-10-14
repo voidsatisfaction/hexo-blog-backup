@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Scheme의 아름다움 ~ Continuation
+date: 2016/8/23 23:52:00
+categories:
+  - Scheme
+  - Schemer series
+tags:
+  - Scheme
 ---
 
 ## 선생님
@@ -12,13 +18,13 @@ The Little Schemer
 - lambda
 
   - 함수의 return값으로 함수를 건네줄 수 있다.
-  
+
   - 그 함수는 lambda함수를 이용해서 건네줄 수 있다.
 
 - Collecter
 
   - 함수가 여러 값을 나타낼 수 있도록 도와준다. 값의 Collect
-  
+
   - 아직 완벽하지 이해하지는 못했으나 정말 아름다워 보인다.
 
 ## Real code
@@ -30,15 +36,15 @@ The Little Schemer
 (define (multiinsertLR new oldL oldR lat)
   (cond ((null? lat) '())
         ((eq? oldL (car lat))
-         (cons new 
-          (cons oldL 
+         (cons new
+          (cons oldL
             (multiinsertLR new oldL oldR (cdr lat)))))
         ((eq? oldR (car lat))
-         (cons oldR 
-          (cons new 
+         (cons oldR
+          (cons new
             (multiinsertLR new oldL oldR (cdr lat)))))
         (else
-         (cons (car lat) 
+         (cons (car lat)
           (multiinsertLR new oldL oldR (cdr lat))))))
 
 (define (multiinsertLR&co new oldL oldR lat col)
@@ -48,13 +54,13 @@ The Little Schemer
          (multiinsertLR&co new oldL oldR
                            (cdr lat)
                            (lambda (newlat L R)
-                             (col (cons new 
+                             (col (cons new
                                 (cons oldL newlat)) (+ L 1) R))))
         ((eq? oldR (car lat))
          (multiinsertLR&co new oldL oldR
                            (cdr lat)
                            (lambda (newlat L R)
-                             (col (cons oldR 
+                             (col (cons oldR
                                 (cons new newlat)) L (+ R 1)))))
         (else
          (multiinsertLR&co new oldL oldR
@@ -66,7 +72,7 @@ The Little Schemer
 ```
 
 #### 해설
-만약 위의 multiinsertLR&co함수가 
+만약 위의 multiinsertLR&co함수가
 (multiinsertLR&co 'hi 'animal 'plant '(hello world) col)
 이렇게 실행된다고 하자. (여기서 col은 아직 미정의)
 

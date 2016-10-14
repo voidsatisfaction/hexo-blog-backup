@@ -1,6 +1,13 @@
 ---
 layout: post
 title: Xcode버전업과 RN개발환경 오류들
+date: 2016/9/19 11:52:00
+categories:
+  - JavaScript
+  - React Native
+tags:
+  - JavaScript
+  - React Native
 ---
 
 이 글을 쓰게 되는 계기는 다름이 아니라 몇가지 에러로 인하여 나와 사부가 정말 말 그대로 **하루종일** 고생했다는 점이다.

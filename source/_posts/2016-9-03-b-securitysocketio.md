@@ -1,5 +1,17 @@
 ---
 layout: post
+title: Nodejs 공부기 4 ~ Session & Password & Socket.io
+date: 2016/9/03 11:52:00
+categories:
+  - JavaScript
+  - Nodejs
+tags:
+  - JavaScript
+  - Socket.io
+---
+
+---
+layout: post
 title: Nodejs 공부기4 ~ Session & Password & Socket.io
 ---
 

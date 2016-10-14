@@ -1,12 +1,19 @@
 ---
 layout: post
-title: JavaScript공부기1 ~ this, bind, apply
+title: JavaScript 공부기 ~ this, bind, apply
+date: 2016/9/02 11:52:00
+categories:
+  - JavaScript
+  - ECMA Script6
+tags:
+  - JavaScript
+  - Grammar
 ---
 
 ## 포인트
 
 - This의 사용
-  - 객체의 소속인 메소드의 this는 그 객체를 가르킨다. 
+  - 객체의 소속인 메소드의 this는 그 객체를 가르킨다.
   - 아무것도 없을 경우는 window객체
 
 - Bind
@@ -70,4 +77,3 @@ func.apply(p);
 
 ## 참조
 - [생활코딩 this](https://opentutorials.org/course/743/6571)
-

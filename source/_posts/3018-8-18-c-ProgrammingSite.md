@@ -1,6 +1,11 @@
 ---
 layout: post
 title: 프로그래밍 공부에 도움이 되는 사이트
+date: 2016/8/25 11:52:00
+categories:
+  - 교육
+tags:
+  - 프로그래밍 교육
 ---
 
 프로그래밍(주로 웹) 공부에 도움이 되는 사이트를 모아보았습니다.
@@ -16,7 +21,7 @@ title: 프로그래밍 공부에 도움이 되는 사이트
 
 ### [멋쟁이 사자처럼](http://www.likelion.net/)
 
-### [Codecademy](https://www.codecademy.com/) 
+### [Codecademy](https://www.codecademy.com/)
 
 ### [Css 레이아웃을 배웁시다](http://ko.learnlayout.com/)
 
@@ -29,7 +34,7 @@ title: 프로그래밍 공부에 도움이 되는 사이트
 
 
 
-# 알고리즘 
+# 알고리즘
 
 
 ### [Euler Project(오일러 프로젝트 한글)](http://euler.synap.co.kr/)
@@ -78,5 +83,3 @@ title: 프로그래밍 공부에 도움이 되는 사이트
 
 
 ### [Google Power Search](http://www.powersearchingwithgoogle.com/)
-
-

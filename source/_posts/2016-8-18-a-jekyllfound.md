@@ -1,6 +1,11 @@
 ---
 layout: post
-title: Jekyll에 관한 몇가지 사실
+title: 지킬에 관하여 알아낸 사실들
+date: 2016/8/18 20:52:00
+categories:
+  - Ruby
+tags:
+  - Ruby
 ---
 
 오늘 지킬에 대해서 알아낸 사실은 다음과 같다.
@@ -17,5 +22,3 @@ title: Jekyll에 관한 몇가지 사실
 \```\[언어명\]
 
 \```
-
-

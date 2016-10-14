@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Nodejs 공부기 2
+date: 2016/8/23 23:59:00
+categories:
+  - JavaScript
+  - Nodejs
+tags:
+  - Nodejs
 ---
 
 ## 선생님
@@ -12,18 +18,18 @@ title: Nodejs 공부기 2
 ### File Based Web App
 - Get / Post
   - Get : Using URL
-  
+
   - Post : No URL
     - bodyParser
 
 - Web App Making
   - CR(UD)
-  
+
   - Removing Overlapped Expression
-  
+
 - File Uploading
   - Multer
-  
+
 ### ETC
 - Nodejs Auto-restart(supervisor module)
 

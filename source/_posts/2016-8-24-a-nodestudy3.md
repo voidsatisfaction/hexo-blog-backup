@@ -1,6 +1,12 @@
 ---
 layout: post
-title: Nodejs 공부기3 ~ Web Application만들기
+title: Nodejs 공부기 3 ~ Web Application만들기
+date: 2016/8/24 11:52:00
+categories:
+  - JavaScript
+  - Nodejs
+tags:
+  - Nodejs
 ---
 
 ## 선생님
@@ -14,8 +20,8 @@ title: Nodejs 공부기3 ~ Web Application만들기
 > 하지만 진정한 기도는 비가 와도 오지 않아도 자기자신이 흔들리지 않게 해달라는 해탈을 위한 기도이다.
 
 고생고생해서 CRUD하나 만들었는데 확실히 Nodejs가 편리한 면이 있다.
-그러나 앱을 만드는데에 있어서 중요한 것은 
-한번에 다 하려고 하지 않고 하나한 차근차근 해나가는 것이다. 
+그러나 앱을 만드는데에 있어서 중요한 것은
+한번에 다 하려고 하지 않고 하나한 차근차근 해나가는 것이다.
 즉, 기획을 완벽히 하고 앱을 제작하자.
 
 여기서 기획이라 함은 어떠한 객체가 어떻게 작용하는지, 어떤 흐름으로 작동하는지를

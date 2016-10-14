@@ -4,7 +4,7 @@
 
 # Site
 title: 텅 빈 충만의 블로그
-subtitle: Ruby JavaScript Scheme을 사랑하는 초보 학생의 고군분투 프로그래밍.
+subtitle: Ruby JavaScript Scheme을 사랑하는 초보 학생의 소박한 프로그래밍.
 description: 세상을 살아가면서 깨닫는 것들
 author: 텅 빈 충만(voidSatisfaction)
 language: en
@@ -80,3 +80,9 @@ feed:
   path: feed.xml
   limit: false
   hub:
+
+# Hexo-admin
+admin:
+  username: voidsatisfaction
+  password_hash: $2a$08$IjXBdrlcMLz9Ecaq8zbdoe.aWLX2UN2DbO14tWWO24yuztbmc0g3e
+  secret: good day
