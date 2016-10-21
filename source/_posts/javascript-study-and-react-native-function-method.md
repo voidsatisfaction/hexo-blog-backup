@@ -6,6 +6,7 @@ categories:
   - React Native
 tags:
   - JavaScript
+  - React Native
 ---
 
 ## 출처 및 들어가 보면 좋은 사이트
