@@ -18,6 +18,10 @@ tags:
 
 - [JavaScript Classes - MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes)
 
+- **[What is the 'new' keyword in JavaScript? - StackOverflow](http://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript)**
+
+- **[Constructors Considered Mildly Confusing](https://zeekat.nl/articles/constructors-considered-mildly-confusing.html)**
+
 ## 배경
 
 리액트 네이티브를 쓰다가 보면, 자바스크립트 코어를 알아야 문제를 해결해야 하는 경우가 종종 발생한다.
@@ -25,6 +29,8 @@ tags:
 그리고 꼭 리액트 네이티브에서 뿐 아니라 자주 사용하는 언어의 코어를 공부하는 것은 필수적이라고 할 수 있다.
 
 애초에 내가 객체지향 프로그래밍에 대한 이해가 달려서 그런지 내용 자체가 지금은 아리송한 경우가 많은데, **객체 지향 프로그래밍**을 따로 공부해야 겠다.
+
+**너무 어렵다 멘붕하겠다. 그림으로 그려보자**
 
 ## 핵심
 
