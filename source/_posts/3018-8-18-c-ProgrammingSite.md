@@ -28,11 +28,15 @@ tags:
 
 
 # 웹 기본
+기초보다는 약간 더 자신있는 분들을 위하여.
 
+## NodeJS
 
-### [Node School](http://nodeschool.io/)
+- [Node School](http://nodeschool.io/)
 
+## Ruby on Rails
 
+- [초보자를 위한 레일스 가이드북 - RORLAB](https://rorlab.gitbooks.io/railsguidebook/content/)
 
 # 알고리즘
 
@@ -40,6 +44,8 @@ tags:
 ### [Euler Project(오일러 프로젝트 한글)](http://euler.synap.co.kr/)
 
 ### [Euler Project(영문)](https://projecteuler.net/)
+
+### [백준 온라인 judge](https://www.acmicpc.net/)
 
 ### [Google codejam](https://code.google.com/codejam/)
 
@@ -77,6 +83,7 @@ tags:
 
 ### [More Agile 보다 나은 개발자가 되기 위하여](http://www.moreagile.net/)
 
+### [쪼꼬니 님의 블로그(웹디자인에 참고. 내용정리가 잘되어있음)](http://elren.blog.me/220730606293)
 
 
 # 기타
