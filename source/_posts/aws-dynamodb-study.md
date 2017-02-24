@@ -26,8 +26,12 @@ tags:
 ## 핵심
 
 - primaryKey에는 partitionKey와 sortKey로 나누어져있다.(paritionKey만 있는 경우도 있음.)
-
 - partitionKey는 겹치더라도, sortKey는 겹치지 않는다.
+
+- C : put, batchWrite
+- R : query
+- U : update
+- D : delete
 
 ## 기본 내용
 
@@ -113,6 +117,13 @@ var params = {
             "LengthInSeconds": 214
         }
     }
+
+    docClient.put(params, function(err, data) {
+      if (err)
+        console.log(JSON.stringify(err, null, 2));
+      else
+        console.log(JSON.stringify(data, null, 2));
+    });
     // Writing succeed only when it satisfy the ConditionExpression's content. if not, it simply overwrite.
     // "ConditionExpression": "attribute_not_exists(Artist) and attribute_not_exists(SongTitle)"
 };

@@ -8,11 +8,17 @@ tags:
   - 프로그래밍
 ---
 
-## JavaScript 입문
+## JavaScript 언어 입문
 
 - [Codecademy - Learn JavaScript](https://www.codecademy.com/learn/learn-javascript)
 
 아에 자바스크립트를 처음 접한다면 이곳의 튜토리얼을 하는 것을 추천한다. 언어는 영어지만 수준이 높은 영어가 아니라서 알기 쉽다.
+
+
+## JavaScript 환경 입문
+
+- [번역 JavaSciript 생태계의 현상황 : 초심자를 위한 안내 1,2](http://han41858.tistory.com/3)
+현대 JavaScript의 환경에 대하여 초심자가 최대한 알기 쉽게 배려해서 쓴 글이라고 생각한다. 반드시 일독해보길 권한다.
 
 
 ## JavaScript Core
